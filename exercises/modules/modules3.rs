@@ -8,10 +8,13 @@
 // Execute `rustlings hint modules3` or use the `hint` watch subcommand for a
 // hint.
 
-// I AM NOT DONE
+
 
 // TODO: Complete this use statement
-use ???
+use std::time::{SystemTime, UNIX_EPOCH};
+/*time标准库
+Ok和Err是标准库中枚举的两个变体 
+OK表示成功包含结果值 Err表示失败包含错误信息*/
 
 fn main() {
     match SystemTime::now().duration_since(UNIX_EPOCH) {
